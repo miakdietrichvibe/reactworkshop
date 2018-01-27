@@ -4,6 +4,7 @@ These are my raw thoughts as I work through the modules. The context for my comm
 # Setup and Module 1
 ## 01/27/18 
 * 12:00
+
 ⋅⋅⋅Figuring out how to set up Git and Github. Figuring out how to find/look at/edit these files in VSCode.
 
 * 13:00
