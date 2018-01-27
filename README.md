@@ -5,13 +5,14 @@ These are my raw thoughts as I work through the modules. The context for my comm
 ## 01/27/18 
 * 12:00
 
-⋅⋅⋅Figuring out how to set up Git and Github. Figuring out how to find/look at/edit these files in VSCode.
+   Figuring out how to set up Git and Github. Figuring out how to find/look at/edit these files in VSCode.
 
 * 13:00
-⋅⋅⋅Dave kindly called in to help me set it up.
+
+   Dave kindly called in to help me set it up.
 
 * 13:50
-⋅⋅⋅Reading carefully through Module 1. It is not entirely over my head, but even concepts like "parent component" are things I have to infer. The example code of the counter is also not entirely gibberish to me, so I'm putting trust in the course that I will have more confidence looking at this kind of syntax later. Currently thinking, "Should I run through a basic JS course first, as a refresher? Am I too much of a beginner?"
+   Reading carefully through Module 1. It is not entirely over my head, but even concepts like "parent component" are things I have to infer. The example code of the counter is also not entirely gibberish to me, so I'm putting trust in the course that I will have more confidence looking at this kind of syntax later. Currently thinking, "Should I run through a basic JS course first, as a refresher? Am I too much of a beginner?"
 
 # Module 2
 ## 01/27/18 
