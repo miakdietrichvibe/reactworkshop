@@ -47,7 +47,45 @@ These are my raw thoughts as I work through the modules. The context for my comm
     * npm ERR!     /Users/mia/.npm/_logs/2018-01-27T19_54_58_707Z-debug.log
     So the start script is still missing somehow... Maybe I should go ahead and commit all of my files. That may help them work together?
 
-* 15:01 -- Um, yes, saving changes definitely helps, haha. But now I'm getting a LOT of errors, starting with not being able to "find module 'webpack'". I think I will end it here for today and forward my issues to Dave.
+* 15:01 -- Um, yes, saving changes definitely helps, haha. But now I'm getting a LOT of errors, starting with not being able to "find module 'webpack'". Here is the log for that.
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@5.6.0
+3 info using node@v8.9.4
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle reactworkshop@1.0.0~prestart: reactworkshop@1.0.0
+6 info lifecycle reactworkshop@1.0.0~start: reactworkshop@1.0.0
+7 verbose lifecycle reactworkshop@1.0.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle reactworkshop@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/mia/vibeReact/reactworkshop/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+9 verbose lifecycle reactworkshop@1.0.0~start: CWD: /Users/mia/vibeReact/reactworkshop
+10 silly lifecycle reactworkshop@1.0.0~start: Args: [ '-c', 'webpack-dev-server --open' ]
+11 silly lifecycle reactworkshop@1.0.0~start: Returned: code: 1  signal: null
+12 info lifecycle reactworkshop@1.0.0~start: Failed to exec start script
+13 verbose stack Error: reactworkshop@1.0.0 start: `webpack-dev-server --open`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:285:16)
+13 verbose stack     at emitTwo (events.js:126:13)
+13 verbose stack     at EventEmitter.emit (events.js:214:7)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at emitTwo (events.js:126:13)
+13 verbose stack     at ChildProcess.emit (events.js:214:7)
+13 verbose stack     at maybeClose (internal/child_process.js:925:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+14 verbose pkgid reactworkshop@1.0.0
+15 verbose cwd /Users/mia/vibeReact/reactworkshop
+16 verbose Darwin 17.3.0
+17 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+18 verbose node v8.9.4
+19 verbose npm  v5.6.0
+20 error code ELIFECYCLE
+21 error errno 1
+22 error reactworkshop@1.0.0 start: `webpack-dev-server --open`
+22 error Exit status 1
+23 error Failed at the reactworkshop@1.0.0 start script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
+
+* I think I will end it here for today and forward my issues to Dave.
 
 * 15:12 -- Maybe I should figure out formatting so I don't make Dave's eyes bleed.
 
