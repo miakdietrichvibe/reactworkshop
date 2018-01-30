@@ -93,7 +93,7 @@ These are my raw thoughts as I work through the modules. The context for my comm
 * 20:18 -- Re-installed webpacks and configurations! Moment of truth: npm start
 * 20:20 -- IT WORKED!
 
-#Module 3
+# Module 3
 ## 01/29/2018
 * 20:30 -- Unsure if Dave would like me to point out spelling errors, but in case he copies his exact texts for his book, this may be important! "Function" misspelled on line 240 in the Read Me.
 * 20:44 -- My first React component!!
