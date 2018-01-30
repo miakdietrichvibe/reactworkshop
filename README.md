@@ -93,4 +93,13 @@ These are my raw thoughts as I work through the modules. The context for my comm
 * 20:18 -- Re-installed webpacks and configurations! Moment of truth: npm start
 * 20:20 -- IT WORKED!
 
+#Module 3
+## 01/29/2018
+* 20:30 -- Unsure if Dave would like me to point out spelling errors, but in case he copies his exact texts for his book, this may be important! "Function" misspelled on line 240 in the Read Me.
+* 20:44 -- My first React component!!
+* 20:51 -- Question as I'm tooling along: Why do we use a semi-colon after the JSX element, but not after the HelloWorld function?
+* 20:54 -- Note to self... must learn basic vocabulary like "expression" and "argument."
+* 21:01 -- Looked up "JWT token" and "const". Yeppp, will definitely be taking the JS course again.
+
+
 
