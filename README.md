@@ -89,4 +89,8 @@ These are my raw thoughts as I work through the modules. The context for my comm
 
 * 15:12 -- Maybe I should figure out formatting so I don't make Dave's eyes bleed.
 
+## 01/29/2018
+* 20:18 -- Re-installed webpacks and configurations! Moment of truth: npm start
+* 20:20 -- IT WORKED!
+
 
