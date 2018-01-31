@@ -113,7 +113,7 @@ These are my raw thoughts as I work through the modules. The context for my comm
 * The lifecycle list, as well as the linked article, really helped me click some things. Especially what the DOM is.
 * "Furthermore, although state is private to an individual component, it can be passed to child components as props!" My head is spinning, but I think I get it!
 * Unsure where to put the constructor(props) and the handleLogin(e). I'm assuming in loginForm.jsx.
-* Copied them directly into loginForm.jsx, but it says I'm missing a comma.
+* Copied them directly into loginForm.jsx, but it says I'm missing a semicolon, I think?
 ```javascript
 ERROR in ./dev/components/app/loginForm.jsx
 Module build failed: SyntaxError: Unexpected token, expected ; (22:15)
