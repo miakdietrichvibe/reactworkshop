@@ -101,5 +101,30 @@ These are my raw thoughts as I work through the modules. The context for my comm
 * 20:54 -- Note to self... must learn basic vocabulary like "expression" and "argument" hahaha
 * 21:01 -- Looked up "JWT token" and "const". Yeppp, will definitely be taking the basic JS course again.
 
+# Module 4
+## 01/30/2018
+* 19:32 -- Made folders and a new file in the terminal all by myself B-)
+* 19:34 -- "Because we want React to handle placing the login form on the page we don't need to import `ReactDOM`." I'm still unsure what actually /places/ things on the page. I think it's the "ReactDOM.render()" function. Does this mean index.jsx is the only file that actually shows components on a page? So we're creating another file to host the login form, I get that, and I get why... but we're going to call it into the index.jsx page to render it, correct? How will this relate to the index.html page? Maybe I'm getting ahead of myself.
+* Googled "export default" and "extends", wondering what precise part they play in creating the class component. "Export default" was a pretty easy guess, just wanted to be sure. Why does it go first? "Extends" means... something about lifecycles and inheriting properties? So in our case, the class "LoginForm" inherits properties of the "Component" class, but I'm unsure just what those properties are.
+* "Note that we don't need to make any changes to our underlying `index.html` document to handle this new component; we simply tell `ReactDOM` to render the `LoginForm` within the `#container` element." I did get ahead of myself!! It all makes sense now!
+* Failed to compile the Login Form. Looked at the errors... I didn't nestle the "components" folder in the dev, I put it in the root.
+* Successful compiling, but the login form did not render. Turns out, I did not capitalize "DOM". So picky! :)
+* How does the form know to behave certain ways? Turning blue when my cursor hovers over it, etc? I assume this has something to do with the className or id in the component. I'm unsure where those are coming from. Is it the bootstrap style sheet that's linked in index.html? Are these inherent properties of the Component class?
+* The lifecycle list, as well as the linked article, really helped me click some things. Especially what the DOM is.
+* "Furthermore, although state is private to an individual component, it can be passed to child components as props!" My head is spinning, but I think I get it!
+* Unsure where to put the constructor(props) and the handleLogin(e). I'm assuming in loginForm.jsx.
+* Copied them directly into loginForm.jsx, but it says I'm missing a comma.
+```javascript
+ERROR in ./dev/components/app/loginForm.jsx
+Module build failed: SyntaxError: Unexpected token, expected ; (22:15)
 
+  20 |
+  21 |
+> 22 | handleLogin(e) {
+     |                ^
+  23 |     var emailAddress = document.querySelector("#username").value;
+  24 |     var password = document.querySelector("#password").value;
+  25 |
+```
+* I don't think I'm putting these in the right place, I'm really unsure. Gonna call it a night.
 

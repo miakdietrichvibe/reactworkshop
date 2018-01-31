@@ -1,27 +1,10 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import LoginForm from "./components/app/loginForm.jsx";
 
 require("./site.scss");
 
-
-const getUserInfo = () =>
-    ({
-        firstName: "Mia",
-        lastName: "Dietrich",
-    });
-
-function HelloWorld (props) {
-    return (
-        <div>Hello {props.user.firstName} {props.user.lastName}!</div>
-    )
-}
-
-var me = { firstName: "Mia", lastName: "Dietrich"}
-
 ReactDOM.render(
-    <HelloWorld user={getUserInfo()} />,
+    <LoginForm />,
     document.querySelector("#container")
 );
-
-
-
