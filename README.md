@@ -128,3 +128,12 @@ Module build failed: SyntaxError: Unexpected token, expected ; (22:15)
 ```
 * I don't think I'm putting these in the right place, I'm really unsure. Gonna call it a night.
 
+## 02/02/2018
+* Moved the `handleLogin(e)` stuff INTO the loginForm component class. That helped! :)
+* No errors in the console!!
+* Using the React developer tools and am surprised I did it right the first time, haha. Got the validation error!
+* > The first rule of React state management is to *never* update state directly either by assigning a new object to `this.state` or by changing properties of `this.state`. Instead, we should *always* update state by passing a new object to `this.setState` because that is what instructs React to begin its update phase.
+```I think I might need this explained more. My current interpretation: Never update a component's state by directly changing what is assigned to the state. Make sure the state remains assigned to the same object... and simply update the object? This will push a "new" object to the component, allowing a method to update it? Hmm.```
+* Line 591 might need a "to" in between "function and function" in the second to last sentence.
+* What is the purpose to setting a function to accept both previous states and current state? Is it to say, "if it WAS *this*, and is NOW *this*, then DO *this*?" So in a login form's example... if the state's validationError was true twice before, and is true again now, lock the user out?
+
